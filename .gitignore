@@ -1,11 +1,24 @@
-.DS_Store
+# Python
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.Python
+env/
+venv/
 .venv/
-*.xml
-*.log
-build/
-dist/
-*.spec
+pip-log.txt
+pip-delete-this-directory.txt
 
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
 
-contarCPFSXML/
-contarCPFSXML/
+# IDEs
+.vscode/
+.idea/
+
+# Project-specific
+*.xlsx
+
