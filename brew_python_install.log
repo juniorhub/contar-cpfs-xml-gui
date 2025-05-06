@@ -1,0 +1,3 @@
+Warning: python@3.11 3.11.12 is already installed and up-to-date.
+To reinstall 3.11.12, run:
+  brew reinstall python@3.11
