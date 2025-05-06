@@ -10,7 +10,7 @@ jobs:
 
     steps:
     - name: Checkout code
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
 
     - name: Set up Python
       uses: actions/setup-python@v4
@@ -27,7 +27,7 @@ jobs:
         pyinstaller --onefile --windowed --hidden-import=pandas --hidden-import=numpy --hidden-import=tkinter contar_cpfs_xml_gui.py
 
     - name: Upload artifact
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: contar-cpfs-xml-gui-windows
         path: dist/contar_cpfs_xml_gui.exe
