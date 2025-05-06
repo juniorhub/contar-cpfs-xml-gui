@@ -1,0 +1,11 @@
+.DS_Store
+.venv/
+*.xml
+*.log
+build/
+dist/
+*.spec
+
+
+contarCPFSXML/
+contarCPFSXML/
